@@ -11,7 +11,7 @@ if [ ! -s /etc/supervisor/conf.d/damon.conf ]; then
   CADDY_HTTP_PORT=2052
   WORK_DIR=/dashboard
 
-  # 如不分离备份的 github 账户，默认与哪吒登陆的 github 账户一致
+  # 如不分离备份的 github 账户，默认与哪吒登陆的 github 账户一致 
   GH_BACKUP_USER=${GH_BACKUP_USER:-$GH_USER}
 
   error() { echo -e "\033[31m\033[01m$*\033[0m" && exit 1; } # 红色
