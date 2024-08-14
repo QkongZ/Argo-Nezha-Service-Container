@@ -1,7 +1,6 @@
 FROM debian
 
 WORKDIR /dashboard
-
 USER root
 
 RUN apt-get update &&\
