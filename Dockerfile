@@ -1,6 +1,7 @@
 FROM debian
 
 WORKDIR /dashboard
+USER root
 
 RUN apt-get update &&\
     apt-get -y install openssh-server wget iproute2 vim git cron unzip supervisor nginx sqlite3 &&\
