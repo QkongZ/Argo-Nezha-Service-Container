@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 # 各变量默认值
 GH_PROXY='https://ghproxy.lvedong.eu.org/'
 WORK_DIR='/opt/nezha/dashboard'
